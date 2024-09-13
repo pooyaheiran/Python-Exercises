@@ -43,8 +43,8 @@ def show():
     lbl.after(100,show)
 
 
-entry = tk.Entry(win,font=("Fira Code",15),width=100,background="black",foreground="#008000")
-lbl = tk.Label(win,text='',font=("",15,"bold"),foreground="green",background="black")
+entry = tk.Entry(win,font=("Fira Code",15),width=100,background="black",foreground="#AAFF00")
+lbl = tk.Label(win,text='',font=("",15,"bold"),foreground="#AAFF00",background="black")
 
 entry.pack(side="top")
 lbl.pack(side="left")
