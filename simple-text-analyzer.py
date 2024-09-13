@@ -34,7 +34,7 @@ def letter(letters):
             letter_count -= 1
     return letter_count  
 
-#function to show 
+
 def show():
     show_word = word(entry.get())
     show_vowel = vowel(entry.get())
