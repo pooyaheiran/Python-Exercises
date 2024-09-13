@@ -8,11 +8,8 @@ win.configure(bg="black")
 
 #count word in sentence
 def word(sentence):
-    word = 1
-    for i in sentence:
-        if i == ' ':
-            word += 1
-    return word 
+    word_count = len(sentence.split())
+    return word_count
 
 
 #count vowel in sentence
@@ -51,5 +48,4 @@ lbl.pack(side="left")
 
 show()
 win.mainloop()
-
 
