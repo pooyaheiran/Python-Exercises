@@ -12,7 +12,7 @@ def GetTime():
     label.after(1000,GetTime)
     
 
-label = tk.Label(window,font=('Fira Code',40),foreground='#AAFF00',background='black')
+label = tk.Label(window,font=('',40),foreground='#AAFF00',background='black')
 label.pack()
 GetTime()
 
