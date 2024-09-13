@@ -2,7 +2,7 @@ import tkinter as tk
 
 #create window in tkinter
 win = tk.Tk()
-win.title('word counter')
+win.title('simple-text-analyzer')
 win.resizable(0,0)
 win.configure(bg="black")
 
